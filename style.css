@@ -10,3 +10,18 @@
     .btn-success:hover {
         background-color: gold;
     }
+    
+    canvas {
+        animation: example;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes example {
+        from {
+            box-shadow: 1px 1px 30px red;
+        }
+        to {
+            box-shadow: 1px 1px 30px green;
+        }
+    }
